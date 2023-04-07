@@ -1,4 +1,5 @@
 import CallToAction from "../../components/CallToAction";
+import Feedback from "../../components/Feedback";
 import HeroSection from "../../components/HeroSection";
 import Portofolios from "../../components/Portofolios";
 import Solutions from "../../components/Solutions";
@@ -25,6 +26,9 @@ const Home = () => {
                     </div>
                     <div>
                         <Team />
+                    </div>
+                    <div>
+                        <Feedback />
                     </div>
                     <div>
                         <CallToAction />
